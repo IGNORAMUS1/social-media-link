@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    place-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+.attribution {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: hsl(0, 0%, 12%);
+    height: fit-content;
+    padding: 32px;
+    align-items: center;
+    border-radius: 12px;
+    
+}
+
+.attribution p {
+    font-size: 14px;
+}
+
+img {
+    width: 96px;
+    height: 96px;
+    border-radius: 48px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 100%;
+}
+
+button {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(0, 0%, 20%);
+    font-weight: 600;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: hsl(75, 94%, 57%);
+}
+
+.avatarText p {
+    font-size: 14px;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    line-height: 36px;
+}
+
+@media only screen and (min-width: 425px) {
+    .attribution {
+        width: 300px;
+        
+    }
+}
