@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com)
-- Live Site URL: (https://your-live-site-url.com)
+- Solution URL: (https://github.com/IGNORAMUS1/social-media-link.git)
+- Live Site URL: (https://ignoramus1.github.io/social-media-link/)
 
 ### Built with
 
